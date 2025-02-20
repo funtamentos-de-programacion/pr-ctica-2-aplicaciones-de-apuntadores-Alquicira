@@ -7,10 +7,10 @@ int main () {
   e = '\t';
   
   //Escrib el código para imprimir las direcciones de a, b y c
-
+   printf("%p\n %p\n %p\n" , &c , &d , &e);
   ap = &c;
   // imprime el carácter de la localidad a la que apunta
-  printf("Carácter: %c\n",*ap);
+  printf("Caracter: %c\n", *ap);
   // imprime el código ASCII de la localidad a la que apunta
   printf("Código ASCII: %d\n",*ap);
   // imprime la dirección de memoria de la localidad a la que apunta
